@@ -1,3 +1,26 @@
+@import url(https://raw.githack.com/Ruben7173/Ruben7173.github.io/master/BetterDiscord-Themes/Modules/transparency.css);
+
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;500;600;700&display=swap');
+@import url('https://mwittrien.github.io/BetterDiscordAddons/Themes/BlurpleRecolor/BlurpleRecolor.css');
+@import url('https://discord-custom-covers.github.io/usrbg/dist/usrbg.css');
+
+/* @import url('https://DiscordStyles.github.io/DarkMatter/src/base.css'); */
+
+button {
+	--accentcolor: var(--accent-alt);
+}
+
+div[data-list-item-id="guildsnav___home"] {
+	background: var(--home-image) top center/110% no-repeat;
+}
+
+#app-mount [data-list-item-id="guildsnav___home"]>div {
+	color: transparent;
+	background-color: transparent;
+}
+
+/* ---- Multi-import above ---- */
+
 /* Background */
 .theme-dark .layer-3QrUeG, .theme-dark .layers-3iHuyZ, .appMount-3VJmYg {
     background:url('https://i.imgur.com/HRTE6xR.jpg'); 
